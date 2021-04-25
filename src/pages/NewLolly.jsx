@@ -63,7 +63,7 @@ const NewLolly = ({ pageContext }) => {
             </div>
             <div>
                 <p>Share lolly with this link:</p>
-                <p className="share">{`https://virtual-lolly-app.netlify.app/lollies/${pageContext.link}`}</p>
+                <p className="share">{`https://tariq-virtual-lolly.netlify.app/lollies/${pageContext.link}`}</p>
                 <div className="details">
                     <p className="reciever">To:{pageContext.rec}</p>
                     <p className="message">Message:{pageContext.message}</p>

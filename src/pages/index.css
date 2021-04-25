@@ -1,0 +1,101 @@
+.container {
+    margin: 0 auto;
+    box-shadow: 0 0 20px #8f7070;
+    padding: 5px;
+    margin-top: 35px; 
+    text-align: center;
+    background-color: #21212b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+   
+  .main-container {
+    display: flex;
+    justify-content: space-around;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+.title{
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+  font-weight: 600;
+  margin-bottom: .2em;
+  line-height: 1;
+  font-size: 2em;
+  color: #21212b;
+}
+.subtitle{
+    font-family: 'Times New Roman', Times, serif !important;
+    text-align: center;
+    font-size: 18px;
+margin-top: 2px;
+margin-bottom: 1em;
+color: #21212b;
+}
+.new-create-btn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    background-color: #21212b;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.sender-form{
+    margin-top: 70px;
+    border: 2px solid black;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color:  white;
+}
+
+.sender-form input{
+    height: 20px;
+    border-radius: 5px;
+    width: 200px;
+}
+.sender-form textarea{
+    height: 100px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.sender-form button{
+    width: 210px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+
+.sender-form button:hover{
+    background-color: darkgray;
+    cursor: pointer;
+}
+.circle{
+    background-color: transparent;
+    border: 0px solid;
+    margin-right: 20px;
+}
+input[type=color]::-webkit-color-swatch {
+    border: none;
+    border-radius: 70%;
+    padding: 0;
+  }
+  
+  input[type=color]::-webkit-color-swatch-wrapper {
+      border: none;
+      border-radius: 70%;
+      padding: 0;
+  }
+@media (max-width: 500px){
+    .main-container {
+        display: flex;
+        justify-content: unset;
+      }
+}
